@@ -1,0 +1,67 @@
+/* Định dạng chung */
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Thanh điều hướng */
+nav {
+    background-color: #34495e;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Khối section chứa các cột */
+section {
+    margin-top: 20px;
+}
+
+/* Định dạng các khối cột sử dụng inline-block */
+.box {
+    display: inline-block;
+    width: 28%;
+    max-width: 300px;
+    padding: 30px 20px;
+    background-color: #e0f2fe; /* Lightblue hiện đại */
+    color: #0369a1;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    vertical-align: top;
+    font-weight: 500;
+}
+
+/* Chân trang */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #e2e8f0;
+    border-radius: 6px;
+    color: #475569;
+    font-size: 14px;
+}
